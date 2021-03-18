@@ -2,7 +2,7 @@
 #include<stdlib.h>
 
 int main( int argc, char *argv[] )  {
-
+/*
    if( argc == 4 ) {
       printf("The %d  arguments supplied are %s %s %s \n",argc, argv[1], argv[2],argv[3]);
    }
@@ -15,6 +15,7 @@ int main( int argc, char *argv[] )  {
     printf("%d at %p: %s\n", i, argv[i], argv[i]);
   }
    
+  */
    int z = 0; 
 
    if ((char)argv[2][0]=='+')
@@ -23,7 +24,7 @@ int main( int argc, char *argv[] )  {
    int x = atoi(argv[3]);
    z = x + y;
    }
-   printf("%d\n", z);
+   printf("%d", z);
 
   return 0;
 
